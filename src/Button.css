@@ -1,0 +1,63 @@
+.Button {
+  display: inline-flex;
+  width: 25%;
+  flex: 1 0 auto;
+}
+
+.Button.wide {
+  width: 50%;
+}
+
+.Button button {
+  background-color: #E0E0E0;
+  font-size: 25px;
+  margin: 0 1px 0 0;
+  flex: 1 0 auto;
+  padding: 0;
+  border: 0;
+}
+
+.Button.orange button {
+background-color: #F5923E;
+  color: white;
+  }
+
+  .Button:last-child button {
+    margin-right: 0;
+  }
+
+  @media (min-width: 200px) and (min-height: 200px) {
+  .Button button {
+    font-size: 25px;
+  }
+}
+
+@media (min-width: 300px) and (min-height: 300px) {
+  .Button button {
+    font-size: 30px;
+  }
+}
+
+@media (min-width: 400px) and (min-height: 400px) {
+  .Button button {
+    font-size: 35px;
+  }
+}
+
+@media (min-width: 500px) and (min-height: 500px) {
+  .Button button {
+    font-size: 40px;
+  }
+}
+
+@media (min-width: 600px) and (min-height: 600px) {
+  .Button button {
+    font-size: 60px;
+  }
+}
+
+@media (min-width: 800px) and (min-height: 800px) {
+  .Button button {
+    font-size: 70px;
+    }
+  }
